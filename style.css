@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;    
+}
+
+:root{
+    --main-color: linear-gradient(to right, #ff105f, #ffad06);
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/fon.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.form-box{
+    width: 380px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 25px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-page{
+    background: transparent;
+    border: 0;
+    position: relative;
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+#btn{
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    background: var(--main-color);
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.input-group{
+    position: absolute;
+    top: 180px;
+    width: 280px;
+    transition: .5s;
+}
+
+.inputField{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:  var(--main-color);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+.check-box span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: linear-gradient(to right, #ff105f, #ffad06);
+}
+
+.hero{
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)) , url(images/fon.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box{
+    position: relative;
+    width: 380px;
+    height: 500px;
+    background: #e2e0e0;
+    left: 34%;
+    top: 10%;
+    border-radius: 10px;
+}
+
+.input-box{
+    position: relative;
+    width: 220px;
+    display: flex;
+    margin: 6% auto;
+    top: 6%;
+    padding: 10px ;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 25px  #ff61241f;
+
+}
+
+.toggle-pages{
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#btn{
+    width: 120px;
+    height: 100%;
+    background: var(--main-color);
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 0;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.social-icons{
+    position: relative;
+    margin: 70px 0 30px 75px;
+}
+
+.social-icons img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#input-group{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+.inputField{
+    background: transparent;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #807f7f;
+    padding-bottom: 10px;
+    width: 270px;
+}
+
+.didi{
+    display: flex;
+    color: #646363;
+    margin-top: 40px;
+}
+
+#login, #register{
+    background: var(--main-color);
+    padding: 15px;
+    border-radius: 20px;
+    width: 200px;
+    left: 40px;
+    top: 230px;
+    position: absolute;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#register{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}*/
